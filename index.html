@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="resume.pdf" target="_blank" class="resume-btn">Download Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <img src="profile.jpg" alt="Your Profile Picture" class="profile-pic">
+            <h1>Hello, I'm <span id="name">Yuktha Sri</span></h1>
+            <p id="bio">I'm a passionate software engineer, specializing in front-end development, AI, and ML.</p>
+            <a href="Resume.pdf" target="_blank" class="download-btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>I am a software engineer with expertise in front-end development, data science, and AI.</p>
+            <br>
+            <br>
+            <h3>Education</h3><br>
+            <div class="education">
+                <div class="edu-item">
+                    <h4>M.Tech Integrated in Software Engineering</h4>
+                    <p>Vellore Institute of Technology, Chennai, India (2018 - 2023)</p>
+                    <p><strong>Percentage:</strong> 7.89%</p>
+                </div>
+                <br>
+                <div class="edu-item">
+                    <h4>Intermediate Education</h4>
+                    <p>Narayana Junior College, Tirupathi, India (2016 - 2018)</p>
+                    <p><strong>Percentage:</strong> 86.1%</p>
+                </div>
+                <br>
+                <div class="edu-item">
+                    <h4>Secondary Education</h4>
+                    <p>Bhanodaya School, Kanakkampalayam, India (2016)</p>
+                    <p><strong>GPA:</strong> 9.0</p>
+                </div>
+                <br>
+            </div>
+            <br>
+            <br>
+
+            <h3>Work Experience</h3><br>
+            <div class="work-experience">
+                <div class="work-item">
+                    <h4>ALSTOM – ANUBHAV Internship Program</h4>
+                    <p><strong>Sept 2022 – June 2023</strong></p>
+                    <ul>
+                        <li>Developed a Python-based model for analyzing code and classifying variables using the ast library.</li>
+                        <li>Designed and implemented algorithms for data classification and pattern recognition.</li>
+                        <li>Exported results to Excel using pandas and openpyxl for analysis and reporting.</li>
+                    </ul>
+                </div><br>
+                <div class="work-item">
+                    <h4>AINE AI – Data Science and Business Intelligence Internship</h4>
+                    <p><strong>Sept 2021 – Oct 2021</strong></p>
+                    <ul>
+                        <li>Applied Convolutional Neural Networks (CNNs) to classify X-ray images of COVID-19 patients.</li>
+                        <li>Created an efficient pipeline for analyzing image data to support healthcare diagnosis.</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <h3>Hobbies</h3><br>
+            <div class="hobbies">
+                <ul>
+                    <li>Exercise</li>
+                    <li>Coloring</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <div class="project-gallery">
+                <div class="project">
+                    <img src="ecommerce.PNG" alt="E-Commerce Website" class="project-img">
+                    <h3>Mini E-Commerce Website</h3>
+                    <p>Developed an e-commerce platform using Java.</p>
+                </div>
+                <div class="project">
+                    <img src="passport.PNG" alt="Passport Automation System" class="project-img">
+                    <h3>Passport Automation System</h3>
+                    <p>Designed a system using HTML, CSS, and Java.</p>
+                </div>
+                <div class="project">
+                    <img src="stock.PNG" alt="Stock Market Analysis" class="project-img">
+                    <h3>Loss Prevention in Stock Market</h3>
+                    <p>Used Neural Networks to analyze stock values.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="username" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

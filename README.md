@@ -14,7 +14,7 @@ This is a **personal portfolio website** showcasing my **projects, work experien
 
 1.Clone the Repository  
 ```sh
-git clone git clone https://github.com/YUKTHASRI/portfolio-website.git
+git clone file:///C:/Users/yukthasri/OneDrive/Desktop/HTML%20Tutorial/personal%20portfolio/index.html
 
 2.Navigate to the Project Folder
 cd portfolio-website
